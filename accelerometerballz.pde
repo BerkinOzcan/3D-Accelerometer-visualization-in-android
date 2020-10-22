@@ -4,7 +4,7 @@ float  accelerometerX,  accelerometerY,  accelerometerZ, kureX, kureY, kureZ;
 
 void  setup()
 { 
-size(displayWidth,displayHeight,P3D);
+fullScreen(P3D);
   sensor  =  new  KetaiSensor(this);
 sensor.start();   
 orientation(PORTRAIT);    
